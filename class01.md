@@ -1,6 +1,6 @@
-Html
- Introduction
- How Websites Are Created :
+# HTML Introduction
+#  How Websites Are Created :
+
 Small websites are often written just using HTML and CSS.Larger websites those that are updated regularly and use a content management system (CMS), blogging tools, or e-commerce software — often make use of more complex technologies on the web server,but these technologies are actually used to produce HTML and CSS that is then sent to the browse
 
 An HTML element is defined by a start tag, some content, and an end tag:
