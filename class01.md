@@ -1,311 +1,171 @@
+Html
+Introduction
+How Websites Are Created :
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read: 03 - Structure web pages with HTML</title>
-    
-    
-<h1>Read: 03 - Structure web pages with HTML</h1>
-<h2>  Summary </h2>
-# HTML & CSS
-  
- # When you visit a website, the web server
- hosting that site could be anywhere in the
- world. In order for you to find the location of
- the web server, your browser will first connect
- to a Domain Name System (DNS) serveR.
- ![HOW AT WRKING]( https://cdn.hswstatic.com/gif/internet-diagram.gif)
-
- # The connecting way like this stepes
-
- 1.When you connect to the web,you do so via an Internet ServiceProvider (ISP). You type a
-domain name or web addressinto your browser to visit a site 
-
-2.Your computer contacts a network of servers called Domain Name System (DNS)servers.
-
-3.The unique number that the
-DNS server returns to your
-computer allows your browser
-to contact the web server
-that hosts the website you
-requested
-
-4.The web server then sends the
-page you requested back to your
-web browser.
-
-
-# HTM L Us es Elements to Describe the Structure of Pages
-
-![htm lock like](https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/06/HTML-elements.jpg)
-
-
-# the eleant in html
-
-  1.tages like<p></p>
-    the mean of <p></p> is
-
-    left-angle bracket     
-    (less-than sign)    
-    RIGHT -angle bracket
-    (MORE -than sign)
-    (p) is  the character
-    <p> opening tag
-
-  2.Attributes element
-  Attributes provide additional information
-  about the contents of an element. They appear
-  on the opening tag of the element and are
-  made up of two parts: a name and a value,
-  separated by an equals sign.
-  
-  # Headings and paragraphs
-    Headings are used to describe the contents below them, it can be a single word or a phrase. In HTML there are six types of headings that are used for various sizes of text.
-  # Bold, italic, emphasis
-    I have previously pointed out, that HTML should not be used to affect the look and feel of you web page. Just as you can make words or sentences bold or italic in Word, you can do so using HTML. Up until now, the <b> element, the <i> element, the <em> element, and the <strong> have been purely presentational, but with HTML5, a semantic meaning have been added to these four elements
-
-  # ctural and semantic markup
-    he page "Cultural and semantic markup" does not exist. You can ask for it to be created, but consider checking the search results below to see whether the topic is already covered
-    
-# The List 
-  Numbered lists
-  Bullet lists
-  Definition lists
-
-# Ordered lists 
- are lists where each item in the list is numbered. For example, the list might be a set of steps for a recipe that must be performed in order, or a legal contract where each point needs to be identified by a section number
-
- <ol> The ordered list is created with the <ol> element
- <li> Each item in the list is placed between an opening <li> tag and a closing </li> tag. (The listands for list item.)
-
-
-# Unordered lists
-are lists that begin with a bullet point (rather than characters that indicate order)
-
-<ul>The unordered list is created with the <ul> element
-<li> Each item in the list is placed between an opening <li> tag and a closing </li> tag. (The listands for list item.)
-
-
-# Definition lists are made up of a set of terms along with the
-definitions for each of those terms
-<dl> The definition list is created with the <dl> element and usually consists of a series of terms and their definitions
-<dt> This is used to contain the term being defined (the definitionterm).
-<dd> This is used to contain the definition.
-
-# Links
- Creating links between pages
- Linking to other sites
- Email links
- 
-# Creating links between pages
- Links are the defining feature of the web because they allow you to move from one web page to another — enabling the
-very idea of browsing or surfing
-lie this ((<a href="http://www.imdb.com">IMDB</a>))
-The text between the opening <a> tag and closing </a> tag is known as link text. Where possible, your link text should
-explain where visitors will be taken if they click on it
-
-# Images
-How to add images to pages
-Choosing the right format
-Optimizing images for the web
-
-# Tables
- # How to create tables
- # What information suits tables
- # How to represent complex data in tables
-  The <table> element is used
-to create a table. The contents
-of the table are written out row
-by row.
-
-# Forms
- ow to collect information from visitors
- Different kinds of form controls
- New HTML5 form controls
-
-# How Forms Work 
-<form>
-Form controls live inside a
-<form> element. This element
-should always carry the action
-attribute and will usually have a
-method and id attribute to
- 
- action
-Every <form> element requires
-an action attribute. Its value
-is the URL for the page on the
-server that will receive the
-information in the form when it
-is submitted.
- 
- # Extra Markup
- Specifying different versions of HTML
- Identifying and grouping elements
- Comments, meta information and iframes
-
- # Escape Characters
-   Therefore, if you want these
-characters to appear on your
-page you need to use what are
-termed "escape" characters
-(also known as escape codes or
-entity references) For
-example, if you want to include a
-copyright symbol on a web page
-you can use either &copy; or
-&#169;.
-
-# Flash, Video & Audio
-In order to use this file
-on a web page it has to be saved
-in a different format known
-as SWF the Flash movie in your page.
-Traditionally, this code used the
-HTML <object> and <embed>
-tags 
-
-# Introducing CSS
- What CSS does
- How CSS works
- Rules, properties, and values
-
- CSS allows you to create rules that specify how the content of
-an element should appear appear in gray using the Arial typeface, or that all level one
-headings should be in a blue, italic, Times typeface 
-
-# color
-The color property allows you
-to specify the color of text inside
-an element. You can specify any
-color in CSS in one of three ways
-like this
- h1 {
-color: DarkCyan;}
-/* hex code */
-
-# Text
-The formatting of your text can have a significant effect
-on how readable your pages are. As we look through these
-properties I will also give you some design tips on how to
-display your type.
-
-# in txt you can change 
-Size of Type
-Type Scales 
-
-# Boxes
-th e box about the width height like 
-<div>
-<p>The Moog company pioneered the commercial
-manufacture of modular voltage-controlled
-analog synthesizer systems in the early
-1950s.</p>
-</div>
-
-# Border, Margin and padding
-
-# Every box has three available properties that can be adjusted to control its appearance
-
- Border
- Margin
- Padding
-
- # Lists, Tables and Forms
- 
- list-style-type
- list-style-image
- list-style-position
-
-# Layout
- the page what look like 
-
- # Screen Sizes
- Different visitors to your site will have different sized screens that show
-different amounts of information, so your design needs to be able to
-work on a range of different sized screens
-
-# Page Sizes
-Because screen sizes and display resolutions vary so much, web
-designers often try to create pages of around 960-1000 pixels wide
-(since most users will be able to see designs this wide on their screens).
-
-# Liquid Layouts
-Liquid layout designs
-stretch and contract
-as the user increases
-or decreases the
-size of their browser
-window. They tend to
-use percentages
-
-# HTML5 Layout
-They are covered here (rather than with the other HTML
-elements you met earlier in the book) because you'll find
-it easier to understand how they can be used now that you
-have seen how CSS can control the layout a page. These
-new elements are going to play an important part in creating
-layouts going forward
-
-# Process & Design
-It looks at who might be visiting your site and how to ensure
-the pages feature the information those visitors need. It also
-covers some key aspects of design theory to help you create
-professional looking sites
-
-# Example Site Map
-# About
-History
-Foundation
-Future Pl ans
-# Articles
-News
-Book Reviews
-Press
-Interviews
-# Visit
-Location
-Opening Times
-Tickets
-# Shop Contact
-Books
-Gifts
-# Contact
-
-# Example Wireframe
-its like  the apint in paper 
-
-# Practical Information
- There are entire books written about each of the topics
-covered in this chapter but I will introduce you to the key
-themes that each subject deals with and give you pointers for
-what you need to be considering. You will see 
- 
-
-
-
-
-
-
-
-</head>
-<body>
-    
-</body>
-</html>
+Small websites are often written just using HTML and CSS.Larger websites those that are updated regularly and use a content management system (CMS), blogging tools, or e-commerce software — often make use of more complex technologies on the web server,but these technologies are actually used to produce HTML and CSS that is then sent to the browse
 
+An HTML element is defined by a start tag, some content, and an end tag:
 
+<tagname>Content goes here...</tagname>
 
+The HTML element is everything from the start tag to the end tag:
 
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
 
 
 
+How the Web Works ?
 
+The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
 
+A browser does not display the HTML tags, but uses them to determine how to display the document
 
 
 
+
+Ex:
+
+<a src="">your content </a> attributes src` ,here we can provide the url about the link, let me show you the html structure firt we should begin
+
+that tag tell the browser what version of html we use it insid head tag we can write the name of our website using tittle tag insid body tag we write all elements of html.`
+
+Extra Markup :
+
+DOCTYPE
+
+stands for Document Type Declaration Tell the browser what version of html we use , and must be begin with it for html5 ,we use it !DOCTYPE html but it's not considered an element or html tag and every version of html has own DOCTYPE
+
+Comments in HTML :
+
+developers use comment to leave notes to understand each other also, the developer comment the element of html because doesn't need it but can use it again any time
+
+<!-- comments parts -->
+
+ID Attribute :
+
+id attribute must Unique for styling just one element in html and should be starting # sign and the name of id then call it in youe element <p id="the name of class"> like that .
+
+CLASS Attribute :
+
+class attribute it used for styling multiple elements and should be starting . sign and the name of class ,then call it in youe element <p class ="the name of class">
+
+<div> tag is used for defining a section of your page and can
+contain another div inside it
+
+<span> tag is used for to styling or organizing a part of content
+
+<iframes> tag is organizing your content to look like box and you can scrolling it <meta> tag is not displayed to website visitor but is provided for use by browsers and web , also is used to add machine-readable information to an HTML pages
+
+<character escape> is a way pf representing a character using only
+
+ASCII characters
+
+HTML5 Layout :
+
+In this chapter we gonna tolk about HTML SEMANTIC ELEMENTS
+
+What are Semantic elements ? Semantic elements = elements with a meaning.
+
+this is exaple for Semantic elements.
+
+The <article> element specifies independent, self-contained content.
+The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+<details> tag Defines additional details that the user can view or hide
+The <header> element represents a container for introductory content or a set of navigational links.
+The <footer> element defines a footer for a document or section.
+The <nav> element defines a set of navigation links.
+The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings
+The <figcaption> tag defines a caption for a figure element. The figcaption element can be placed as the first or as the last child of a figure element.
+The <main> tag Specifies the main content of a document
+The <mark> tag Defines marked/highlighted text
+<section> tag Defines a section in a document
+<summary> tag Defines a visible heading for a details element
+<time> tag Defines a date/time
+Process & Design :
+
+SITE MAP
+
+What is a sitemap ?
+
+A sitemap is a file provides a description about the pages and other files on your site
+
+you need a sitemap :
+if your site is very larg
+if your page are not linked to each other you can list them in a sitemap
+if your pages has large number of media content
+you not need a sitemap :
+if your site is small
+if you dont have a lot of media in your site
+What is a wireframe ?
+
+Wireframing is a way to design a website but Manually before usit the code edittor it gets your client thinking about what their needs and functional requirement will be more clarity and it Giveing to the developer more clear and initial picture how the user interface would be
+
+when you desiging a wireframe tring to avoid
+
+Too much detail
+you don't need to Creating wireframes for every single page
+
+Finally, make sure that your website has a simple user interface, easy to use and this is what the user needs .
+
+javascript
+Introduction :
+
+we explains how JavaScript can be used,in browsers to make websites more interactive, interesting, and user-friendly. Learning to program with JavaScript involves:
+
+basic programming concepts
+Learning the language itself
+Becoming familiar with how it is applied
+
+how javascript makes web pages more interactive:
+
+1- ACCESS CONTENT
+
+2- MODIFY CONTENT
+
+3- PROGRAM RULES
+
+4- REACT TO EVENTS
+
+EXAMPLES OF JAVASCRIPT IN THE BROWSER 1- SLIDESHOWS
+
+2- FORMS
+
+3- RELOAD PART OF PAGE
+
+4- FILTERING DATA
+
+Secript :
+
+What is ascript and how do i create one ?
+
+A SCRIPT IS A SERIES OF INSTRUCTIONS
+
+A script is a series of instructions that a computer can follow to achieve a goal.
+
+You could compare scripts to any of the following
+
+1- RECIPES
+
+2- HANDBOOKS
+
+3- MANUALS
+
+Writing A Script :
+
+To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it. Designing a Secript Tasks : you can work out the individual tasks needed to achieve it.
+
+EVENTS : WHAT IS AN EVENT?
+
+events are "things" that happen to HTML elements.When JavaScript is used in HTML pages, JavaScript can react on these events.
+
+WHAT DOES AN EVENT DO?
+
+Programmers choose which events they respond to.When a specific event happens, that event can be used to trigger a specific section of the code.Scripts often use different events to trigger different types of functionality . How a Browser sees a Web Page ? 1- Receive a Page as Html Code 2- creating a model of the page and store it in memory. 3- use a rendering engine to show the page on screen.
+
+How Html ,Css and JavaScript work Together?
+
+HTML, CSS and JavaScript work together to form the front-end design of a website by applying information that affects content, style and interactivity of a site.
+
+How to use Object and Methods ? this ome line of javaScript shows how to use object and methods programming refer to this as calling a method of an oblect. Ex : document.write("") the document object represents the entire web page. the wrire() method orFunction of the document object allows new content to be weitten into the page. and we can add html element in this method
