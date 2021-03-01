@@ -5,7 +5,8 @@ let favgame = prompt("enter favgame?");
 let favcountry = prompt("enter favcountry?"); 
 let firstlove = prompt("enter firstlove?"); 
 
-alert('your answer is correct');
+alert('your answer is correct' + favgame + favcountry + firstlove);
+
 
 
 
